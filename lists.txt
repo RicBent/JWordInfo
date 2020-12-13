@@ -1,0 +1,8 @@
+# Format:
+# List name|List file|Seperator|Word data index|Field 1|Field 2|Field3|...
+# Fields can reference data by index with $X where X is the index of the data, starting with $1
+# $0 is reserved and always contains the line index of the words
+
+Netflix JP|lists/Netflix JP.txt|\t|$2|Rank: $4 ($3)|In top: $6%|Percentage: $5%|Occurences: $1
+Wikipedia JP|lists/wikipedia.txt|\t|$1|Rank: $0
+Innocent Corpus|lists/innocent_corpus.txt|\t|$1|Rank: $0|Occurences: $2

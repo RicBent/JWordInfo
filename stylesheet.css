@@ -1,0 +1,12 @@
+QLineEdit {
+    font-size: 20px;
+}
+
+QLabel {
+    font-size: 14px;
+}
+
+QLabel#Title {
+    font-size: 16px;
+    font-weight: bold;
+}
